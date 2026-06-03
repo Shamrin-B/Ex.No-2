@@ -1,5 +1,6 @@
 # Ex.No :2
 # GENERATION OF LEXICAL TOKENS USING LEX/FLEX TOOL
+NAME: SHAMRIN B
 ## Register Number:212224040306
 ## Date:12.05.2026
 ## AIM
@@ -36,6 +37,8 @@
 
 ## PROGRAM:
 ```
+
+```exp2.l
 %{
 /* program to recognize a C program */ int COMMENT = 0;
 %}
@@ -82,15 +85,16 @@ int yywrap()
 return 0;
 }
 ```
-INPUT
+## INPUT:
 ```
+var.c
 #include<stdio.h> 
 int main(){
 int a,b; return 0;
 }
 ```
 ## OUTPUT:
-<img width="1577" height="983" alt="Screenshot 2026-05-12 093903" src="https://github.com/user-attachments/assets/1f9594b3-4b63-4cb6-b8ba-0e7d891c8e68" />
+<img width="926" height="693" alt="491427766-6a943fac-c7f3-4af2-8897-c021d4a35382" src="https://github.com/user-attachments/assets/9c0f0388-d7dd-4919-9a6e-f0d861779f98" />
 
 ## RESULT:
  The lexical analyzer is implemented using lex and the output is verified.
